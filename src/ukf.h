@@ -67,6 +67,11 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
+  // added extra variables
+  MatrixXd R_lidar_;
+  MatrixXd R_radar_;
+  double NIS_lidar_;
+  double NIS_radar_;
 
   /**
    * Constructor
